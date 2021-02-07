@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Jasmine Testing</title>
+
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <!-- Load Jasmine Framework: -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/boot.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.css">
+
+  <!-- Load Scripts -->
+  <script src="script/calc.js"></script>
+
+  <!-- Load Tests -->
+  <script src="spec/calcSpec.js"></script>
+
+  <!-- 
+    Now again, the order is important.
+We need to load our source code, our calc.js, before we load the specifications.
+The reason for this is that any functions or objects that we define within the calc.js file will be referenced by inside our calcSpec.js file.
+ -->
+
+</head>
+<!-- Notice that this HTML file doesn't actually have a <body> element.
+        That's because it's not strictly needed.
+        It's still perfectly valid HTML, and Jasmine will take care of that for us. -->
+
+<!-- The output error:
+Expected 'HitchhikersGuide' to be 'Error!'.
+ -->
+
+<!-- 
+The output after fixing:
+Addition tests
+should return 42
+Should return an error if we don't supply two numbers
+should return 26
+
+  -->
