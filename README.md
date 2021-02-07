@@ -1,4 +1,5 @@
-# Jasmine-Test-Framework
+# Jasmine-Test-Framework 
+![alt text](https://github.com/anmarjarjees/jasmine-framework/blob/master/readme-images/jasmine-logo.svg.png "Jasmine Framework Logo")
 ## Behavior-Driven JavaScript
 Jasmine is a behavior-driven development framework for testing JavaScript code. 
 You can read more about Jasmine Framework by visiting ["Jasmine Official Website"](https://jasmine.github.io/index.html)
