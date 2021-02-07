@@ -10,6 +10,7 @@ Jasmine Testing Framework Code Examples with comments and Exercises for My Stude
 ## Refernces:
 - Code Institute | Full Stack Software Development Diploma
 - Jasmine Framework Docs
+- Please refer to my class materials and the pdf files for more details and explinations 
 
 #### NOTE: You can open any link in a new tab using either from the following ways:
 - Hold down the CTRL Key in windows or COMMAND key in Mac then click it
